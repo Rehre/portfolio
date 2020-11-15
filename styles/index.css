@@ -1,14 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
 @tailwind base;
 
 /* Write your own custom base styles here */
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#__next {
+  height: 100%;
+}
 
 /* Start purging... */
 @tailwind components;
 /* Stop purging. */
 
 /* Write your own custom component styles here */
-.btn-blue {
-  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+.navbar {
+  @apply text-xl fixed px-10;
+  top: 30%;
+}
+
+.navbar-circle {
+  @apply bg-black navbar-circle mr-2 rounded-full;
+  width: 5px;
+  height: 5px;
+}
+
+.navbar-button--active {
+  @apply flex place-items-center outline-none;
+}
+
+.navbar-button--not-active {
+  @apply block opacity-50 outline-none;
+  padding-left: calc(5px + 0.5rem);
+}
+
+.navbar-button--not-active:hover {
+  @apply opacity-100;
+}
+
+.navbar-button--active:focus,
+.navbar-button--not-active:focus {
+  @apply outline-none;
+}
+
+.social-links {
+  @apply fixed px-10;
+  bottom: 10%;
+}
+
+.social-links img {
+  opacity: 0.5;
+}
+
+.social-links img:hover {
+  opacity: 1;
 }
 
 /* Start purging... */

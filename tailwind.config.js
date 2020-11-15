@@ -6,7 +6,13 @@ module.exports = {
   purge: ["./components/**/*.{js,ts,jsx,tsx}", "./pages/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      colors: {},
+      colors: {
+        "pallete-0": "#F8F9FA",
+        "pallete-1": "#212529",
+      },
+      fontFamily: {
+        default: ["Zilla Slab", "Open Sans", "sans-serif"],
+      },
     },
   },
   variants: {},
