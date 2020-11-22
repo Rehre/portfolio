@@ -8,11 +8,11 @@ html {
 }
 
 body {
-  height: 100%;
+  height: auto;
 }
 
 #__next {
-  height: 100%;
+  height: auto;
 }
 
 /* Start purging... */
@@ -60,6 +60,11 @@ body {
 
 .social-links img:hover {
   opacity: 1;
+}
+
+.profile-pic-img {
+  @apply w-full h-full object-cover;
+  filter: grayscale(1);
 }
 
 /* Start purging... */
