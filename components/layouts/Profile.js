@@ -3,7 +3,7 @@ import PictureBox from "../commons/PictureBox";
 
 export default function Profile() {
   return (
-    <div className="w-full h-screen">
+    <div id="profile-page" className="w-full h-screen">
       <Title text="About Me" />
       <div className="flex items-center justify-center py-12 ">
         <div className="px-24">
