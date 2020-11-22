@@ -67,6 +67,21 @@ body {
   filter: grayscale(1);
 }
 
+.project-container {
+  position: relative;
+}
+
+.project-container-desc {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: all 0.3s;
+}
+
+.project-container:hover .project-container-desc {
+  top: 0;
+}
+
 /* Start purging... */
 @tailwind utilities;
 /* Stop purging. */
