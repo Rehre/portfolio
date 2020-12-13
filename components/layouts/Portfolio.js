@@ -12,6 +12,7 @@ export default function Portfolio() {
           Chat bot created with line and telegram api.
           <a
             href="https://github.com/Rehre/Katou-bot"
+            target="_blank"
             className="text-blue-600 hover:underline"
           >
             Link to project

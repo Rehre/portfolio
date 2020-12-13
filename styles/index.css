@@ -3,17 +3,6 @@
 @tailwind base;
 
 /* Write your own custom base styles here */
-html {
-  height: 100%;
-}
-
-body {
-  height: auto;
-}
-
-#__next {
-  height: auto;
-}
 
 /* Start purging... */
 @tailwind components;

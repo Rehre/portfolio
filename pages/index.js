@@ -62,7 +62,7 @@ export default function IndexPage() {
   }, []);
 
   return (
-    <div className="bg-pallete-0 text-pallete-1 w-full h-auto font-default">
+    <div className="w-full font-default bg-pallete-0 text-pallete-1">
       <Head>
         <title>Akmal Maulana Azzam</title>
       </Head>
