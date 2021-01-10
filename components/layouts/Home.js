@@ -1,16 +1,19 @@
-import PictureBox from "../commons/PictureBox";
-
-function Home() {
+export default function Home() {
   return (
-    <div
+    <section
       id="home-page"
-      className="w-full h-screen flex flex-col items-center justify-center"
+      className="min-h-screen flex justify-center items-center"
     >
-      <PictureBox />
-      <h1 className="text-4xl">Hi, I am Akmal</h1>
-      <h2 className="text-xl">I am a frontend web developer</h2>
-    </div>
+      <header className="text-center">
+        <img
+          src="/images/profile-pic.png"
+          alt="profile"
+          className="mx-auto lg:mx-5"
+          width="200px"
+        ></img>
+        <h1 className="mt-5 text-2xl">Hi, I am Akmal</h1>
+        <h2 className="text-md">I am a frontend web developer</h2>
+      </header>
+    </section>
   );
 }
-
-export default Home;
