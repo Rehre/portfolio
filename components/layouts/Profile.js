@@ -11,7 +11,7 @@ export default function Profile() {
           className="mx-auto lg:mx-5"
           width="200px"
         ></img>
-        <div className="mt-10 lg:mt-0 mx-auto lg:mx-0 w-3/5 lg:max-w-md">
+        <div className="mt-10 lg:mt-0 mx-auto lg:mx-0 w-4/5 lg:max-w-md">
           <div className="my-1">Hi, my name is Akmal Maulana Azzam.</div>
           <div className="my-1">
             it has been 4 years since i started learning javascript and its been
